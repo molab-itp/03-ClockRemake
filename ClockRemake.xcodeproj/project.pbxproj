@@ -10,7 +10,6 @@
 		5162EDAA293CF291001AF940 /* ClockRemakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162EDA9293CF291001AF940 /* ClockRemakeApp.swift */; };
 		5162EDAC293CF291001AF940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162EDAB293CF291001AF940 /* ContentView.swift */; };
 		5162EDAE293CF292001AF940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5162EDAD293CF292001AF940 /* Assets.xcassets */; };
-		5162EDB1293CF292001AF940 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5162EDB0293CF292001AF940 /* Preview Assets.xcassets */; };
 		5162EDB8293CF31D001AF940 /* ClockAngles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162EDB7293CF31D001AF940 /* ClockAngles.swift */; };
 /* End PBXBuildFile section */
 
@@ -19,7 +18,6 @@
 		5162EDA9293CF291001AF940 /* ClockRemakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockRemakeApp.swift; sourceTree = "<group>"; };
 		5162EDAB293CF291001AF940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5162EDAD293CF292001AF940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5162EDB0293CF292001AF940 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5162EDB7293CF31D001AF940 /* ClockAngles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAngles.swift; sourceTree = "<group>"; };
 		ABEE3A322D4649EA007E8632 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,17 +57,8 @@
 				5162EDAB293CF291001AF940 /* ContentView.swift */,
 				5162EDB7293CF31D001AF940 /* ClockAngles.swift */,
 				5162EDAD293CF292001AF940 /* Assets.xcassets */,
-				5162EDAF293CF292001AF940 /* Preview Content */,
 			);
 			path = ClockRemake;
-			sourceTree = "<group>";
-		};
-		5162EDAF293CF292001AF940 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5162EDB0293CF292001AF940 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5162EDB1293CF292001AF940 /* Preview Assets.xcassets in Resources */,
 				5162EDAE293CF292001AF940 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,8 +260,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ClockRemake/Preview Content\"";
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3RCW2SSL8G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -301,8 +289,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ClockRemake/Preview Content\"";
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3RCW2SSL8G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
